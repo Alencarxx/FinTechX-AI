@@ -76,11 +76,11 @@ Pare a execução do Streamlit caso esteja em execução pressione Ctrl+C. Isso 
 
 Após interromper o Streamlit, você pode instalar o pytest usando o pip:
 
-pip install pytest
+    pip install pytest
 
 Agora basta rodar os teste usando pytest, para executar os testes, você deve estar no diretório raiz do seu projeto (FinTechX-AI/). A partir desse diretório, execute o seguinte comando no terminal:
 
-pytest
+    pytest
 
 Então o pytest procurará automaticamente por todos os arquivos que começam com test_ ou terminam com _test.py e executará as funções de teste dentro deles.
 
