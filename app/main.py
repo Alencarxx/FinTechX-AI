@@ -105,11 +105,11 @@ schema = get_database_schema()
 prompt = generate_prompt(schema)
 
 # App do Streamlit
-st.title("FinTechX AI")
-st.write("Bem-vindo ao aplicativo FinTechX AI! Faça uma pergunta e obtenha insights do seu banco de dados.")
+st.title("FinTechX.AI")
+st.write("Bem-vindo ao aplicativo FinTechX.AI! Faça uma pergunta e obtenha insights do seu banco de dados.")
 
 question = st.text_input("Digite sua pergunta:", key="input")
-submit = st.button("Fazer a pergunta")
+submit = st.button("Faça sua pergunta")
 
 if submit:
     attempts = 0
