@@ -15,35 +15,35 @@ Antes de começar, verifique se você tem o Conda instalado. Se não, você pode
 
 1. Clone este repositório para sua máquina local:
     
-    git clone https://github.com/alencarxx/fintechx-ai.git
-    cd fintechx-ai
+        git clone https://github.com/alencarxx/fintechx-ai.git
+        cd fintechx-ai
     
 
 2. Crie um ambiente Conda e ative-o:
     
-    conda create --name fintechx-ai python=3.10
-    conda activate fintechx-ai
+        conda create --name fintechx-ai python=3.10
+        conda activate fintechx-ai
     
 
 3. Instale as dependências do projeto:
     
-    pip install -r requirements.txt
+        pip install -r requirements.txt
     
 
 4. Configure seu arquivo `.env` com as variáveis de ambiente necessárias. Crie um arquivo chamado `.env` na raiz do projeto e adicione as seguintes variáveis:
    
-    GOOGLE_API_KEY=your_google_api_key
-    DB_HOST=your_database_host
-    DB_USER=your_database_user
-    DB_PASSWORD=your_database_password
-    DB_NAME=your_database_name
+        GOOGLE_API_KEY=your_google_api_key
+        DB_HOST=your_database_host
+        DB_USER=your_database_user
+        DB_PASSWORD=your_database_password
+        DB_NAME=your_database_name
     
 
 5. Certifique-se de que o arquivo `.env` está listado no `.gitignore` para evitar a exposição das suas credenciais:
 
-    Adicione o seguinte ao seu `.gitignore`:
-    
-    .env
+        Adicione o seguinte ao seu `.gitignore`:
+        
+        .env
     
 
 ## Executando o Aplicativo
