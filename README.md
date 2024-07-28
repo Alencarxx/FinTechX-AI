@@ -15,7 +15,7 @@ Antes de começar, verifique se você tem o Conda instalado. Se não, você pode
 
 1. Clone este repositório para sua máquina local:
     
-    git clone https://github.com/yourusername/fintechx-ai.git
+    git clone https://github.com/alencarxx/fintechx-ai.git
     cd fintechx-ai
     
 
