@@ -91,4 +91,4 @@ Licença
 Este projeto é licenciado sob a Licença MIT.
 
 Contato
-Se você tiver perguntas ou sugestões, entre em contato comigo em alencarporto2208@gmail.com.
+Se você tiver perguntas ou sugestões, entre em contato comigo em alencarporto2008@gmail.com.
